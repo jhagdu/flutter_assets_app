@@ -37,7 +37,9 @@ audioControl(int status) async {
 //Defining Asset App
 assetApp() {
 
+  //Call Set Audio Function
   setAudio();
+  //Start Audio on App Startup
   audioControl(audioStatus);
 
   //onPress Audio1 Button
