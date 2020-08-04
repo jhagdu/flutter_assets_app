@@ -11,10 +11,10 @@ var audioStatus = 1;
 
 //Function for Setting Audio to AudioPlayers
 setAudio() {
-  audio1.setUrl('https://raw.githubusercontent.com/jhagdu/flutter_assets/master/audio1.mp3');
+  audio1.setUrl('https://github.com/jhagdu/flutter_assets_app/blob/master/Network_Assets/audio1.mp3?raw=true');
   audio1.setReleaseMode(ReleaseMode.LOOP);
 
-  audio2.setUrl('https://raw.githubusercontent.com/jhagdu/flutter_assets/master/audio2.mp3');
+  audio2.setUrl('https://github.com/jhagdu/flutter_assets_app/blob/master/Network_Assets/audio2.mp3?raw=true');
   audio2.setReleaseMode(ReleaseMode.LOOP);
 }
 

@@ -69,7 +69,7 @@ class AppBody extends StatelessWidget {
               padding: EdgeInsets.all(5),
               child:  FullScreenWidget(
                 child: ClipRRect(
-                  child: Image.network('https://github.com/jhagdu/flutter_assets/blob/master/lions.jfif?raw=true', fit: BoxFit.contain,),
+                  child: Image.network('https://github.com/jhagdu/flutter_assets_app/blob/master/Network_Assets/lions.jfif?raw=true', fit: BoxFit.contain,),
                 ),
               )
             ),

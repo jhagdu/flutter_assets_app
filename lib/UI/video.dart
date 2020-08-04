@@ -28,7 +28,7 @@ class _NetVideoAppState extends State<NetworkVideo> {
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.network('https://github.com/jhagdu/flutter_assets/blob/master/wildlife.mp4?raw=true')
+    _controller = VideoPlayerController.network('https://github.com/jhagdu/flutter_assets_app/blob/master/Network_Assets/wildlife.mp4?raw=true')
       ..initialize().then((_) {
         // Ensure the first frame is shown after the video is initialized, even before the play button has been pressed.
         setState(() {});
