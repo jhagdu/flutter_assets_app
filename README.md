@@ -2,7 +2,7 @@
 Code for Flutter App which contains Audios, Videos and Images from Internet and Local Assets
 
 # Pre-requisite :-   
-Your Should be Device Connected to run this app   
+Your Device Should be Connected to internet run this app   
 
 # To use this :-  
 Open Terminal/CMD and run command "flutter create asset_app"  
